@@ -1,0 +1,1 @@
+ansible-playbook docker-playbook.yaml   --private-key AnsibleKey.pem
