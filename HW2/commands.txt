@@ -1,2 +1,2 @@
 #install docker on localhost
-' sudo ansible-playbook dockerplaybook.yaml --extra-vars '{"user_list":["ubuntu","michal","harry"]}
+sudo ansible-playbook dockerplaybook.yaml --extra-vars '{"user_list":["ubuntu","michal","harry"]}' 
