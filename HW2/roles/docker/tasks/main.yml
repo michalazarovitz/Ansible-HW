@@ -1,0 +1,7 @@
+---
+# tasks file for docker
+- name:  install docker on ubuntu or redhat
+  import_tasks: redhat-docker.yaml
+  when: ansible_distribution == 'RedHat'
+- import_tasks: ubuntu-docker.yaml
+  when: ansible_distribution == 'Ubuntu'
